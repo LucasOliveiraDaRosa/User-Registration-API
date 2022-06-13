@@ -1,0 +1,289 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Personal\\C#\\arqddd\\src\\Api.CrossCuting\\CrossCuting.csproj": {}
+  },
+  "projects": {
+    "C:\\Personal\\C#\\arqddd\\src\\Api.CrossCuting\\CrossCuting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Personal\\C#\\arqddd\\src\\Api.CrossCuting\\CrossCuting.csproj",
+        "projectName": "CrossCuting",
+        "projectPath": "C:\\Personal\\C#\\arqddd\\src\\Api.CrossCuting\\CrossCuting.csproj",
+        "packagesPath": "C:\\Users\\lucas.o\\.nuget\\packages\\",
+        "outputPath": "C:\\Personal\\C#\\arqddd\\src\\Api.CrossCuting\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas.o\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Personal\\C#\\arqddd\\src\\Api.Data\\Data.csproj": {
+                "projectPath": "C:\\Personal\\C#\\arqddd\\src\\Api.Data\\Data.csproj"
+              },
+              "C:\\Personal\\C#\\arqddd\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Personal\\C#\\arqddd\\src\\Api.Domain\\Domain.csproj"
+              },
+              "C:\\Personal\\C#\\arqddd\\src\\Api.Service\\Service.csproj": {
+                "projectPath": "C:\\Personal\\C#\\arqddd\\src\\Api.Service\\Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Personal\\C#\\arqddd\\src\\Api.Data\\Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Personal\\C#\\arqddd\\src\\Api.Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "C:\\Personal\\C#\\arqddd\\src\\Api.Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\lucas.o\\.nuget\\packages\\",
+        "outputPath": "C:\\Personal\\C#\\arqddd\\src\\Api.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas.o\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Personal\\C#\\arqddd\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Personal\\C#\\arqddd\\src\\Api.Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Personal\\C#\\arqddd\\src\\Api.Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Personal\\C#\\arqddd\\src\\Api.Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Personal\\C#\\arqddd\\src\\Api.Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\lucas.o\\.nuget\\packages\\",
+        "outputPath": "C:\\Personal\\C#\\arqddd\\src\\Api.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas.o\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Personal\\C#\\arqddd\\src\\Api.Service\\Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Personal\\C#\\arqddd\\src\\Api.Service\\Service.csproj",
+        "projectName": "Service",
+        "projectPath": "C:\\Personal\\C#\\arqddd\\src\\Api.Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\lucas.o\\.nuget\\packages\\",
+        "outputPath": "C:\\Personal\\C#\\arqddd\\src\\Api.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas.o\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Personal\\C#\\arqddd\\src\\Api.Data\\Data.csproj": {
+                "projectPath": "C:\\Personal\\C#\\arqddd\\src\\Api.Data\\Data.csproj"
+              },
+              "C:\\Personal\\C#\\arqddd\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Personal\\C#\\arqddd\\src\\Api.Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
