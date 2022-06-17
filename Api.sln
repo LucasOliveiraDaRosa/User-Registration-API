@@ -13,9 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Api.Data\Data.cspro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Api.Service\Service.csproj", "{177C40D7-1D30-4538-B18C-A6CF9D4F430F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Data.Test", "Api.data.test\Api.Data.Test.csproj", "{228AB8F0-96A6-4762-AF9B-CC5D2C819BFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.Data.Test", "Api.data.test\Api.Data.Test.csproj", "{228AB8F0-96A6-4762-AF9B-CC5D2C819BFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Service.Test", "Api.Service.Test\Api.Service.Test.csproj", "{6703358D-6459-443F-AAD8-995D8041937D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.Service.Test", "Api.Service.Test\Api.Service.Test.csproj", "{6703358D-6459-443F-AAD8-995D8041937D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -11,6 +11,6 @@ namespace Domain.DTOs.User
 
         public string Email { get; set; }
 
-        public DateTime VreateAt { get; set; }
+        public DateTime CreateAt { get; set; }
     }
 }

@@ -8,7 +8,7 @@ namespace CrossCuting.Mappings
     {
         public EntityToDTOProfile()
         {
-            CreateMap<UserDTOCreate, UserEntity>()
+            CreateMap<UserDTO, UserEntity>()
                 .ReverseMap();
 
             CreateMap<UserDTOCreateResult, UserEntity>()
