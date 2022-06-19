@@ -1,111 +1,9 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Personal\\C#\\arqddd\\src\\Api.Application.Test\\Api.Application.Test.csproj": {}
+    "C:\\Personal\\C#\\arqddd\\src\\Api.Integration.Test\\Api.Integration.Test.csproj": {}
   },
   "projects": {
-    "C:\\Personal\\C#\\arqddd\\src\\Api.Application.Test\\Api.Application.Test.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Personal\\C#\\arqddd\\src\\Api.Application.Test\\Api.Application.Test.csproj",
-        "projectName": "Api.Application.Test",
-        "projectPath": "C:\\Personal\\C#\\arqddd\\src\\Api.Application.Test\\Api.Application.Test.csproj",
-        "packagesPath": "C:\\Users\\lucas.o\\.nuget\\packages\\",
-        "outputPath": "C:\\Personal\\C#\\arqddd\\src\\Api.Application.Test\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\lucas.o\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {
-              "C:\\Personal\\C#\\arqddd\\src\\Api.Application\\Application.csproj": {
-                "projectPath": "C:\\Personal\\C#\\arqddd\\src\\Api.Application\\Application.csproj"
-              },
-              "C:\\Personal\\C#\\arqddd\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Personal\\C#\\arqddd\\src\\Api.Domain\\Domain.csproj"
-              },
-              "C:\\Personal\\C#\\arqddd\\src\\Api.Service\\Service.csproj": {
-                "projectPath": "C:\\Personal\\C#\\arqddd\\src\\Api.Service\\Service.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[11.0.1, )"
-            },
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[11.0.0, )"
-            },
-            "Faker.NETCore": {
-              "target": "Package",
-              "version": "[1.0.2, )"
-            },
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[16.9.4, )"
-            },
-            "Moq": {
-              "target": "Package",
-              "version": "[4.14.5, )"
-            },
-            "coverlet.collector": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.0.2, )"
-            },
-            "xunit": {
-              "target": "Package",
-              "version": "[2.4.1, )"
-            },
-            "xunit.runner.visualstudio": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.4.3, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
     "C:\\Personal\\C#\\arqddd\\src\\Api.Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -376,6 +274,115 @@
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[6.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Personal\\C#\\arqddd\\src\\Api.Integration.Test\\Api.Integration.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Personal\\C#\\arqddd\\src\\Api.Integration.Test\\Api.Integration.Test.csproj",
+        "projectName": "Api.Integration.Test",
+        "projectPath": "C:\\Personal\\C#\\arqddd\\src\\Api.Integration.Test\\Api.Integration.Test.csproj",
+        "packagesPath": "C:\\Users\\lucas.o\\.nuget\\packages\\",
+        "outputPath": "C:\\Personal\\C#\\arqddd\\src\\Api.Integration.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas.o\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Personal\\C#\\arqddd\\src\\Api.Application\\Application.csproj": {
+                "projectPath": "C:\\Personal\\C#\\arqddd\\src\\Api.Application\\Application.csproj"
+              },
+              "C:\\Personal\\C#\\arqddd\\src\\Api.CrossCuting\\CrossCuting.csproj": {
+                "projectPath": "C:\\Personal\\C#\\arqddd\\src\\Api.CrossCuting\\CrossCuting.csproj"
+              },
+              "C:\\Personal\\C#\\arqddd\\src\\Api.Data\\Data.csproj": {
+                "projectPath": "C:\\Personal\\C#\\arqddd\\src\\Api.Data\\Data.csproj"
+              },
+              "C:\\Personal\\C#\\arqddd\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Personal\\C#\\arqddd\\src\\Api.Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Faker.NETCore": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "Microsoft.AspNetCore.TestHost": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
             }
           },
           "imports": [

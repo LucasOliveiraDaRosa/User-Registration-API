@@ -31,7 +31,7 @@ namespace Service.Services
         {
             var entity = await _repository.SelectAsync(id);
 
-            return _mapper.Map<UserDTO>(entity) ?? new UserDTO();
+            return _mapper.Map<UserDTO>(entity);
         }
 
         public async Task<IEnumerable<UserDTO>> GetAll()
