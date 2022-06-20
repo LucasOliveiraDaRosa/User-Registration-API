@@ -3,12 +3,12 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Domain.DTOs.Cep
 {
-    public class CepDTOCreateUpdate
+    public class CepDTOUpdate
     {
         [Required(ErrorMessage = "Id é obrigatório.")]
         public Guid Id { get; set; }
 
-        [Required(ErrorMessage ="CEP é obrigatório.")]
+        [Required(ErrorMessage = "CEP é obrigatório.")]
         public string Cep { get; set; }
 
         [Required(ErrorMessage = "Logradouro é obrigatório.")]

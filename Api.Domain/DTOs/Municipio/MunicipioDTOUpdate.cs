@@ -5,7 +5,7 @@ namespace Domain.DTOs.Municipio
 {
     public class MunicipioDTOUpdate
     {
-        [Required(ErrorMessage = "Id é obrigatório."))]
+        [Required(ErrorMessage = "Id é obrigatório.")]
         public Guid Id { get; set; }
 
         [Required(ErrorMessage = "Nome de município é obrigatório.")]
