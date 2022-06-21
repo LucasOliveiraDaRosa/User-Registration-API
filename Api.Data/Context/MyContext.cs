@@ -2,6 +2,7 @@
 using Domain.Entities;
 using Data.Mapping;
 using System;
+using Data.Seeds;
 
 namespace Data.Context
 {
@@ -17,6 +18,11 @@ namespace Data.Context
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<UserEntity>(new UserMap().Configure);
+            modelBuilder.Entity<MunicipioEntity>(new MunicipioMap().Configure);
+            modelBuilder.Entity<CepEntity>(new CepMap().Configure);
+            modelBuilder.Entity<UFEntity>(new UfMap().Configure);
+
+
             modelBuilder.Entity<UserEntity>().HasData(
                 new UserEntity
                 {
@@ -26,6 +32,8 @@ namespace Data.Context
                     CreateAt = DateTime.Now,
                     UpdateAt = DateTime.Now
                 });
+
+            UfSeeds.Ufs(modelBuilder);
         }
     }
 }

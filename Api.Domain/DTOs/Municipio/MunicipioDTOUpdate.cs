@@ -16,6 +16,6 @@ namespace Domain.DTOs.Municipio
         public int CodIBGE { get; set; }
 
         [Required(ErrorMessage = "Código de UF é obrigatório.")]
-        public Guid UfIf { get; set; }
+        public Guid UfId { get; set; }
     }
 }
