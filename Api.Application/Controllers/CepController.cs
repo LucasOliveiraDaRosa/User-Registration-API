@@ -1,48 +1,29 @@
-﻿using System;
+﻿using Domain.DTOs.Cep;
+using Domain.Interfaces.Services.Cep;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Domain.Interfaces.Services.User;
-using Domain.Entities;
-using Microsoft.AspNetCore.Authorization;
-using Domain.DTOs.User;
 
 namespace Application.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UsersController : ControllerBase
+    public class CepController : ControllerBase
     {
-
-        private IUserService _service;
-        public UsersController(IUserService service)
+        private ICepService _service;
+        public CepController(ICepService service)
         {
             _service = service;
         }
 
+
         [Authorize("Bearer")]
         [HttpGet]
-        public async Task<ActionResult> GetAll()
-        {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
-            try
-            {
-                return Ok(await _service.GetAll());
-            }
-
-            catch (ArgumentException ex)
-            {
-                return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
-            }
-        }
-        
-        [Authorize("Bearer")]
-        [HttpGet]
-        [Route("{id}", Name = "GetWithId")]
+        [Route("{id}", Name = "GetCepWithId")]
         public async Task<ActionResult> Get(Guid id)
         {
             if (!ModelState.IsValid)
@@ -54,7 +35,7 @@ namespace Application.Controllers
             {
                 var result = await _service.Get(id);
 
-                if(result == null)
+                if (result == null)
                 {
                     return NotFound();
                 }
@@ -69,8 +50,36 @@ namespace Application.Controllers
         }
 
         [AllowAnonymous]
+        [HttpGet]
+        [Route("byCep/{cep}")]
+        public async Task<ActionResult> Get(string cep)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            try
+            {
+                var result = await _service.Get(cep);
+
+                if (result == null)
+                {
+                    return NotFound();
+                }
+
+                return Ok(result);
+            }
+
+            catch (ArgumentException ex)
+            {
+                return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
+            }
+        }
+
+        [Authorize("Bearer")]
         [HttpPost]
-        public async Task<ActionResult> Post([FromBody] UserDTOCreate user)
+        public async Task<ActionResult> Post([FromBody] CepDTOCreate cep)
         {
             if (!ModelState.IsValid)
             {
@@ -80,11 +89,11 @@ namespace Application.Controllers
             try
             {
 
-                var result = await _service.Post(user);
+                var result = await _service.Post(cep);
 
                 if (result != null)
                 {
-                    return Created(new Uri(Url.Link("GetWithId", new { id = result.Id })), result);
+                    return Created(new Uri(Url.Link("GetCepWithId", new { id = result.Id })), result);
                 }
                 else
                 {
@@ -102,7 +111,7 @@ namespace Application.Controllers
 
         [Authorize("Bearer")]
         [HttpPut]
-        public async Task<ActionResult> Put([FromBody] UserDTOUpdate user)
+        public async Task<ActionResult> Put([FromBody] CepDTOUpdate cep)
         {
             if (!ModelState.IsValid)
             {
@@ -112,11 +121,11 @@ namespace Application.Controllers
             try
             {
 
-                var result = await _service.Put(user);
+                var result = await _service.Put(cep);
 
                 if (result != null)
                 {
-                    return Ok (result);
+                    return Ok(result);
                 }
                 else
                 {
@@ -129,11 +138,10 @@ namespace Application.Controllers
             {
                 return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
             }
-
         }
 
         [Authorize("Bearer")]
-        [HttpDelete ("{id}")]
+        [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(Guid id)
         {
             if (!ModelState.IsValid)
@@ -152,6 +160,5 @@ namespace Application.Controllers
             }
 
         }
-
     }
 }
