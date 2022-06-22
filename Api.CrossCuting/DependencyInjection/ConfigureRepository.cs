@@ -5,6 +5,7 @@ using Domain.Interfaces;
 using Domain.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 using System;
 
 namespace CrossCuting.DependencyInjection
@@ -30,7 +31,7 @@ namespace CrossCuting.DependencyInjection
             else
             {
                 serviceCollection.AddDbContext<MyContext>(
-                options => options.UseMySql(Environment.GetEnvironmentVariable("DB_CONNECTION")));
+                options => options.UseMySql(Environment.GetEnvironmentVariable("DB_CONNECTION"),new MySqlServerVersion(new Version(8, 0, 29))));
             }
         }
     }

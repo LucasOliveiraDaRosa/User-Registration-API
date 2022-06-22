@@ -19,7 +19,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.Service.Test", "Api.Ser
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.Application.Test", "Api.Application.Test\Api.Application.Test.csproj", "{C0EEBAE9-82DC-4969-A6F4-36EE2BE88379}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Integration.Test", "Api.Integration.Test\Api.Integration.Test.csproj", "{2DEB5BED-0AC2-4A23-B551-3EE109AF6D57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.Integration.Test", "Api.Integration.Test\Api.Integration.Test.csproj", "{2DEB5BED-0AC2-4A23-B551-3EE109AF6D57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6A7560F8-0F94-4D69-98A8-C6F6E3749ED7}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
