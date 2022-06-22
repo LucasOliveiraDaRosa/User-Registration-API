@@ -11,9 +11,9 @@ namespace Domain.Interfaces.Services.Cep
 
         Task<CepDTO> Get(string cep);
 
-        Task<CepDTOCreateResult> Post(CepDTOCreate municipio);
+        Task<CepDTOCreateResult> Post(CepDTOCreate cep);
 
-        Task<CepDTOUpdateResult> Put(CepDTOUpdate municipio);
+        Task<CepDTOUpdateResult> Put(CepDTOUpdate cep);
 
         Task<bool> Delete(Guid id);
     }

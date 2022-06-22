@@ -31,9 +31,9 @@ namespace Service.Services
             return _mapper.Map<CepDTO>(entity);
         }
 
-        public async Task<CepDTOCreateResult> Post(CepDTOCreate municipio)
+        public async Task<CepDTOCreateResult> Post(CepDTOCreate cep)
         {
-            var model = _mapper.Map<CepModel>(municipio);
+            var model = _mapper.Map<CepModel>(cep);
 
             var entity = _mapper.Map<CepEntity>(model);
 
@@ -42,12 +42,12 @@ namespace Service.Services
             return _mapper.Map<CepDTOCreateResult>(result);
         }
 
-        public async Task<CepDTOUpdateResult> Put(CepDTOUpdate municipio)
+        public async Task<CepDTOUpdateResult> Put(CepDTOUpdate cep)
         {
-            var entity = _mapper.Map<CepEntity>(municipio);
+            var model = _mapper.Map<CepModel>(cep);
+            var entity = _mapper.Map<CepEntity>(model);
 
             var result = await _repository.UpdateAsync(entity);
-
             return _mapper.Map<CepDTOUpdateResult>(result);
         }
 

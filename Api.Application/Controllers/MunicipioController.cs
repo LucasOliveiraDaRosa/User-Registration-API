@@ -3,8 +3,6 @@ using Domain.Interfaces.Services.Municipio;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 
@@ -99,7 +97,7 @@ namespace Application.Controllers
         [Authorize("Bearer")]
         [HttpGet]
         [Route("byIBGE/{codigoIBGE}")]
-        public async Task<ActionResult> GetCompleteByIBGE(int codIBGE)
+        public async Task<ActionResult> GetCompleteByIBGE(int codigoIBGE)
         {
             if (!ModelState.IsValid)
             {
@@ -108,8 +106,7 @@ namespace Application.Controllers
 
             try
             {
-                var result = await _service.GetCompleteByIBGE(codIBGE);
-
+                var result = await _service.GetCompleteByIBGE(codigoIBGE);
                 if (result == null)
                 {
                     return NotFound();
@@ -117,10 +114,9 @@ namespace Application.Controllers
 
                 return Ok(result);
             }
-
-            catch (ArgumentException ex)
+            catch (ArgumentException e)
             {
-                return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
+                return StatusCode((int)HttpStatusCode.InternalServerError, e.Message);
             }
         }
 
