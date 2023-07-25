@@ -1,32 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Personal\\C#\\arqddd\\src\\Api.Domain\\Domain.csproj": {}
+    "C:\\Git\\Lucas\\User-Registration-API\\Api.Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Personal\\C#\\arqddd\\src\\Api.Domain\\Domain.csproj": {
+    "C:\\Git\\Lucas\\User-Registration-API\\Api.Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Personal\\C#\\arqddd\\src\\Api.Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Git\\Lucas\\User-Registration-API\\Api.Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Personal\\C#\\arqddd\\src\\Api.Domain\\Domain.csproj",
+        "projectPath": "C:\\Git\\Lucas\\User-Registration-API\\Api.Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\lucas.o\\.nuget\\packages\\",
-        "outputPath": "C:\\Personal\\C#\\arqddd\\src\\Api.Domain\\obj\\",
+        "outputPath": "C:\\Git\\Lucas\\User-Registration-API\\Api.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\lucas.o\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://nuget.tripoa.net.br/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -37,8 +43,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
@@ -51,7 +57,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -60,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

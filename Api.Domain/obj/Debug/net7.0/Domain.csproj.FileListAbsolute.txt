@@ -1,0 +1,12 @@
+C:\Git\Lucas\User-Registration-API\Api.Domain\bin\Debug\net7.0\Domain.deps.json
+C:\Git\Lucas\User-Registration-API\Api.Domain\bin\Debug\net7.0\Domain.dll
+C:\Git\Lucas\User-Registration-API\Api.Domain\bin\Debug\net7.0\Domain.pdb
+C:\Git\Lucas\User-Registration-API\Api.Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+C:\Git\Lucas\User-Registration-API\Api.Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\Lucas\User-Registration-API\Api.Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\Git\Lucas\User-Registration-API\Api.Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\Git\Lucas\User-Registration-API\Api.Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\Git\Lucas\User-Registration-API\Api.Domain\obj\Debug\net7.0\Domain.dll
+C:\Git\Lucas\User-Registration-API\Api.Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\Git\Lucas\User-Registration-API\Api.Domain\obj\Debug\net7.0\Domain.pdb
+C:\Git\Lucas\User-Registration-API\Api.Domain\obj\Debug\net7.0\ref\Domain.dll

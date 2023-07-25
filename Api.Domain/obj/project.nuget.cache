@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "BVCZX8wi/Sk3Sxpl2cw/+D/+9SHCkv9Vzr1geIFY2Nf4izeXnY04X6Nm1mWsgmbxRb63ey2xYgLESAwF7NTxFw==",
+  "success": true,
+  "projectFilePath": "C:\\Git\\Lucas\\User-Registration-API\\Api.Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lucas.o\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\lucas.o\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.8.0\\microsoft.identitymodel.jsonwebtokens.6.8.0.nupkg.sha512",
+    "C:\\Users\\lucas.o\\.nuget\\packages\\microsoft.identitymodel.logging\\6.8.0\\microsoft.identitymodel.logging.6.8.0.nupkg.sha512",
+    "C:\\Users\\lucas.o\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.8.0\\microsoft.identitymodel.tokens.6.8.0.nupkg.sha512",
+    "C:\\Users\\lucas.o\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.8.0\\system.identitymodel.tokens.jwt.6.8.0.nupkg.sha512",
+    "C:\\Users\\lucas.o\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.tripoa.net.br/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}
