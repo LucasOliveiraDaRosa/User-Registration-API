@@ -1,47 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Git\\Lucas\\User-Registration-API\\Api.data.test\\Api.Data.Test.csproj": {}
+    "/Users/lucasoliveiradarosa/User-Registration-API/Api.data.test/Api.Data.Test.csproj": {}
   },
   "projects": {
-    "C:\\Git\\Lucas\\User-Registration-API\\Api.Application\\Application.csproj": {
+    "/Users/lucasoliveiradarosa/User-Registration-API/Api.Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\Lucas\\User-Registration-API\\Api.Application\\Application.csproj",
+        "projectUniqueName": "/Users/lucasoliveiradarosa/User-Registration-API/Api.Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Git\\Lucas\\User-Registration-API\\Api.Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\lucas.o\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\Lucas\\User-Registration-API\\Api.Application\\obj\\",
+        "projectPath": "/Users/lucasoliveiradarosa/User-Registration-API/Api.Application/Application.csproj",
+        "packagesPath": "/Users/lucasoliveiradarosa/.nuget/packages/",
+        "outputPath": "/Users/lucasoliveiradarosa/User-Registration-API/Api.Application/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lucas.o\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/lucasoliveiradarosa/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "http://nuget.tripoa.net.br/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Git\\Lucas\\User-Registration-API\\Api.CrossCuting\\CrossCuting.csproj": {
-                "projectPath": "C:\\Git\\Lucas\\User-Registration-API\\Api.CrossCuting\\CrossCuting.csproj"
+              "/Users/lucasoliveiradarosa/User-Registration-API/Api.CrossCuting/CrossCuting.csproj": {
+                "projectPath": "/Users/lucasoliveiradarosa/User-Registration-API/Api.CrossCuting/CrossCuting.csproj"
               },
-              "C:\\Git\\Lucas\\User-Registration-API\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Git\\Lucas\\User-Registration-API\\Api.Domain\\Domain.csproj"
+              "/Users/lucasoliveiradarosa/User-Registration-API/Api.Domain/Domain.csproj": {
+                "projectPath": "/Users/lucasoliveiradarosa/User-Registration-API/Api.Domain/Domain.csproj"
               },
-              "C:\\Git\\Lucas\\User-Registration-API\\Api.Service\\Service.csproj": {
-                "projectPath": "C:\\Git\\Lucas\\User-Registration-API\\Api.Service\\Service.csproj"
+              "/Users/lucasoliveiradarosa/User-Registration-API/Api.Service/Service.csproj": {
+                "projectPath": "/Users/lucasoliveiradarosa/User-Registration-API/Api.Service/Service.csproj"
               }
             }
           }
@@ -50,19 +42,25 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[9.0.6, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.5.0, )"
+              "version": "[9.0.1, )"
             }
           },
           "imports": [
@@ -84,48 +82,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Git\\Lucas\\User-Registration-API\\Api.CrossCuting\\CrossCuting.csproj": {
+    "/Users/lucasoliveiradarosa/User-Registration-API/Api.CrossCuting/CrossCuting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\Lucas\\User-Registration-API\\Api.CrossCuting\\CrossCuting.csproj",
+        "projectUniqueName": "/Users/lucasoliveiradarosa/User-Registration-API/Api.CrossCuting/CrossCuting.csproj",
         "projectName": "CrossCuting",
-        "projectPath": "C:\\Git\\Lucas\\User-Registration-API\\Api.CrossCuting\\CrossCuting.csproj",
-        "packagesPath": "C:\\Users\\lucas.o\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\Lucas\\User-Registration-API\\Api.CrossCuting\\obj\\",
+        "projectPath": "/Users/lucasoliveiradarosa/User-Registration-API/Api.CrossCuting/CrossCuting.csproj",
+        "packagesPath": "/Users/lucasoliveiradarosa/.nuget/packages/",
+        "outputPath": "/Users/lucasoliveiradarosa/User-Registration-API/Api.CrossCuting/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lucas.o\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/lucasoliveiradarosa/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "http://nuget.tripoa.net.br/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Git\\Lucas\\User-Registration-API\\Api.Data\\Data.csproj": {
-                "projectPath": "C:\\Git\\Lucas\\User-Registration-API\\Api.Data\\Data.csproj"
+              "/Users/lucasoliveiradarosa/User-Registration-API/Api.Data/Data.csproj": {
+                "projectPath": "/Users/lucasoliveiradarosa/User-Registration-API/Api.Data/Data.csproj"
               },
-              "C:\\Git\\Lucas\\User-Registration-API\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Git\\Lucas\\User-Registration-API\\Api.Domain\\Domain.csproj"
+              "/Users/lucasoliveiradarosa/User-Registration-API/Api.Domain/Domain.csproj": {
+                "projectPath": "/Users/lucasoliveiradarosa/User-Registration-API/Api.Domain/Domain.csproj"
               },
-              "C:\\Git\\Lucas\\User-Registration-API\\Api.Service\\Service.csproj": {
-                "projectPath": "C:\\Git\\Lucas\\User-Registration-API\\Api.Service\\Service.csproj"
+              "/Users/lucasoliveiradarosa/User-Registration-API/Api.Service/Service.csproj": {
+                "projectPath": "/Users/lucasoliveiradarosa/User-Registration-API/Api.Service/Service.csproj"
               }
             }
           }
@@ -134,19 +124,25 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[11.0.1, )"
+              "version": "[14.0.0, )"
             },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[11.0.0, )"
+              "version": "[12.0.1, )"
             }
           },
           "imports": [
@@ -165,51 +161,43 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Git\\Lucas\\User-Registration-API\\Api.data.test\\Api.Data.Test.csproj": {
+    "/Users/lucasoliveiradarosa/User-Registration-API/Api.data.test/Api.Data.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\Lucas\\User-Registration-API\\Api.data.test\\Api.Data.Test.csproj",
+        "projectUniqueName": "/Users/lucasoliveiradarosa/User-Registration-API/Api.data.test/Api.Data.Test.csproj",
         "projectName": "Api.Data.Test",
-        "projectPath": "C:\\Git\\Lucas\\User-Registration-API\\Api.data.test\\Api.Data.Test.csproj",
-        "packagesPath": "C:\\Users\\lucas.o\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\Lucas\\User-Registration-API\\Api.data.test\\obj\\",
+        "projectPath": "/Users/lucasoliveiradarosa/User-Registration-API/Api.data.test/Api.Data.Test.csproj",
+        "packagesPath": "/Users/lucasoliveiradarosa/.nuget/packages/",
+        "outputPath": "/Users/lucasoliveiradarosa/User-Registration-API/Api.data.test/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lucas.o\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/lucasoliveiradarosa/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "http://nuget.tripoa.net.br/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Git\\Lucas\\User-Registration-API\\Api.Application\\Application.csproj": {
-                "projectPath": "C:\\Git\\Lucas\\User-Registration-API\\Api.Application\\Application.csproj"
+              "/Users/lucasoliveiradarosa/User-Registration-API/Api.Application/Application.csproj": {
+                "projectPath": "/Users/lucasoliveiradarosa/User-Registration-API/Api.Application/Application.csproj"
               },
-              "C:\\Git\\Lucas\\User-Registration-API\\Api.CrossCuting\\CrossCuting.csproj": {
-                "projectPath": "C:\\Git\\Lucas\\User-Registration-API\\Api.CrossCuting\\CrossCuting.csproj"
+              "/Users/lucasoliveiradarosa/User-Registration-API/Api.CrossCuting/CrossCuting.csproj": {
+                "projectPath": "/Users/lucasoliveiradarosa/User-Registration-API/Api.CrossCuting/CrossCuting.csproj"
               },
-              "C:\\Git\\Lucas\\User-Registration-API\\Api.Data\\Data.csproj": {
-                "projectPath": "C:\\Git\\Lucas\\User-Registration-API\\Api.Data\\Data.csproj"
+              "/Users/lucasoliveiradarosa/User-Registration-API/Api.Data/Data.csproj": {
+                "projectPath": "/Users/lucasoliveiradarosa/User-Registration-API/Api.Data/Data.csproj"
               },
-              "C:\\Git\\Lucas\\User-Registration-API\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Git\\Lucas\\User-Registration-API\\Api.Domain\\Domain.csproj"
+              "/Users/lucasoliveiradarosa/User-Registration-API/Api.Domain/Domain.csproj": {
+                "projectPath": "/Users/lucasoliveiradarosa/User-Registration-API/Api.Domain/Domain.csproj"
               }
             }
           }
@@ -218,11 +206,17 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Faker.NETCore": {
               "target": "Package",
@@ -230,17 +224,17 @@
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[9.0.6, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.6.3, )"
+              "version": "[17.14.1, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.4, )"
             },
             "xunit": {
               "target": "Package",
@@ -250,7 +244,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.5.0, )"
+              "version": "[3.1.1, )"
             }
           },
           "imports": [
@@ -269,42 +263,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Git\\Lucas\\User-Registration-API\\Api.Data\\Data.csproj": {
+    "/Users/lucasoliveiradarosa/User-Registration-API/Api.Data/Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\Lucas\\User-Registration-API\\Api.Data\\Data.csproj",
+        "projectUniqueName": "/Users/lucasoliveiradarosa/User-Registration-API/Api.Data/Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Git\\Lucas\\User-Registration-API\\Api.Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\lucas.o\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\Lucas\\User-Registration-API\\Api.Data\\obj\\",
+        "projectPath": "/Users/lucasoliveiradarosa/User-Registration-API/Api.Data/Data.csproj",
+        "packagesPath": "/Users/lucasoliveiradarosa/.nuget/packages/",
+        "outputPath": "/Users/lucasoliveiradarosa/User-Registration-API/Api.Data/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lucas.o\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/lucasoliveiradarosa/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "http://nuget.tripoa.net.br/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Git\\Lucas\\User-Registration-API\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Git\\Lucas\\User-Registration-API\\Api.Domain\\Domain.csproj"
+              "/Users/lucasoliveiradarosa/User-Registration-API/Api.Domain/Domain.csproj": {
+                "projectPath": "/Users/lucasoliveiradarosa/User-Registration-API/Api.Domain/Domain.csproj"
               }
             }
           }
@@ -313,31 +299,37 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[9.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[9.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[9.0.6, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.3, )"
             }
           },
           "imports": [
@@ -356,39 +348,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Git\\Lucas\\User-Registration-API\\Api.Domain\\Domain.csproj": {
+    "/Users/lucasoliveiradarosa/User-Registration-API/Api.Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\Lucas\\User-Registration-API\\Api.Domain\\Domain.csproj",
+        "projectUniqueName": "/Users/lucasoliveiradarosa/User-Registration-API/Api.Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Git\\Lucas\\User-Registration-API\\Api.Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\lucas.o\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\Lucas\\User-Registration-API\\Api.Domain\\obj\\",
+        "projectPath": "/Users/lucasoliveiradarosa/User-Registration-API/Api.Domain/Domain.csproj",
+        "packagesPath": "/Users/lucasoliveiradarosa/.nuget/packages/",
+        "outputPath": "/Users/lucasoliveiradarosa/User-Registration-API/Api.Domain/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lucas.o\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/lucasoliveiradarosa/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "http://nuget.tripoa.net.br/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -396,15 +380,21 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
-              "version": "[6.8.0, )"
+              "version": "[8.12.0, )"
             }
           },
           "imports": [
@@ -423,45 +413,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Git\\Lucas\\User-Registration-API\\Api.Service\\Service.csproj": {
+    "/Users/lucasoliveiradarosa/User-Registration-API/Api.Service/Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\Lucas\\User-Registration-API\\Api.Service\\Service.csproj",
+        "projectUniqueName": "/Users/lucasoliveiradarosa/User-Registration-API/Api.Service/Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Git\\Lucas\\User-Registration-API\\Api.Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\lucas.o\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\Lucas\\User-Registration-API\\Api.Service\\obj\\",
+        "projectPath": "/Users/lucasoliveiradarosa/User-Registration-API/Api.Service/Service.csproj",
+        "packagesPath": "/Users/lucasoliveiradarosa/.nuget/packages/",
+        "outputPath": "/Users/lucasoliveiradarosa/User-Registration-API/Api.Service/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lucas.o\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/lucasoliveiradarosa/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "http://nuget.tripoa.net.br/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Git\\Lucas\\User-Registration-API\\Api.Data\\Data.csproj": {
-                "projectPath": "C:\\Git\\Lucas\\User-Registration-API\\Api.Data\\Data.csproj"
+              "/Users/lucasoliveiradarosa/User-Registration-API/Api.Data/Data.csproj": {
+                "projectPath": "/Users/lucasoliveiradarosa/User-Registration-API/Api.Data/Data.csproj"
               },
-              "C:\\Git\\Lucas\\User-Registration-API\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Git\\Lucas\\User-Registration-API\\Api.Domain\\Domain.csproj"
+              "/Users/lucasoliveiradarosa/User-Registration-API/Api.Domain/Domain.csproj": {
+                "projectPath": "/Users/lucasoliveiradarosa/User-Registration-API/Api.Domain/Domain.csproj"
               }
             }
           }
@@ -470,15 +452,21 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[11.0.1, )"
+              "version": "[14.0.0, )"
             }
           },
           "imports": [
@@ -497,7 +485,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

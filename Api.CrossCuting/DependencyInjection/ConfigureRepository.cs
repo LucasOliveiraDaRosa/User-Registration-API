@@ -21,18 +21,10 @@ namespace CrossCuting.DependencyInjection
             serviceCollection.AddScoped<ICepRepository, CepImplementations>();
 
 
-            if (Environment.GetEnvironmentVariable("DATABASE").ToUpper() == "SQLSERVER".ToUpper())
-            {
-                serviceCollection.AddDbContext<MyContext>(
-                options => options.UseSqlServer(Environment.GetEnvironmentVariable("DB_CONNECTION")));
-                //"Server=.\\SQLEXPRESS2017;Initial Catalog=dbapi;MultipleActiveResultSets=true;user ID=sa;Password="
 
-            }
-            else
-            {
                 serviceCollection.AddDbContext<MyContext>(
                 options => options.UseMySql(Environment.GetEnvironmentVariable("DB_CONNECTION"),new MySqlServerVersion(new Version(8, 0, 29))));
-            }
+            
         }
     }
 }
